@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+    <h1>Personal Details</h1>
+    <form action="Submit.html" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+
+        <label for="other">Other</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="99"  required><br><br>
+
+        <label for="mobileNumber">Contact No:</label>
+        <input type="text" id="mobileNumber" name="mobileNumber"  maxlength="10" required ><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="address" name="address"  required></textarea><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="State" name="State"  required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"  required><br><br>
+        
+        <button type="Submit">Submit</button>
+       
+    </html>
